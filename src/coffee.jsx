@@ -24,6 +24,7 @@ function Catalog_coffee() {
           <Product/>
           <Product/>
           <Product/>
+          <Product/>
         </div>
     </div>
     <Footer />
