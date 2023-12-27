@@ -1,0 +1,131 @@
+.cart{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 52px;
+}
+
+.cart_container{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.cart_left{
+    width: 49vw;
+    height: fit-content;
+    padding: 35px 18px;
+    border-radius: 30px 0 0 30px;
+    border: 2px solid #6FBC29;
+}
+
+.cart_left_containers{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.cart_left_containers:last-child{
+    margin: 0;
+}
+
+.cart_left_containers_left{
+    display: flex;
+    gap: 43px;
+}
+
+.cart_left_containers_right{
+    display: flex;
+    gap: 20px;
+}
+
+#cart_left_containers_1{
+    width: 90px;
+height: 90px;
+}
+
+.cart_left_containers_data_name{
+    color: #1E1E1E;
+font-family: Montserrat Alternates;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+margin-bottom: 11px;
+}
+
+.cart_left_containers_grams{
+    color: #2E2E2E;
+font-family: Montserrat Alternates;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.cart_left_containers_price{
+    color: #1E1E1E;
+font-family: Montserrat Alternates;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+#cart_left_containers_2{
+    width: 23.345px;
+height: 29px;
+}
+
+.cart_btn{
+    color: #FFF4CF;
+text-align: center;
+font-family: Montserrat Alternates;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    padding: 20px 56px;
+background: #6FBC29
+}
+
+.decoration{
+    width: 49vw;
+    height: 567px;
+    padding: 35px 48px;
+    border-radius: 0 30px 30px 0;
+background: #6FBC29;
+}
+
+.decoration_title{
+    color: #FFF4CF;
+font-family: UniversityRoman;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+margin-bottom: 35px;
+}
+
+.decoration_input input{
+width: 100%;
+    height: 76px;
+    border-radius: 20px;
+background: #FFF4CF;
+border: none;
+margin-bottom: 18px;
+}
+
+.decoration_input input:last-child{
+    margin: 0;
+}
+
+::placeholder{
+    color: #747474;
+font-family: Montserrat Alternates;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 20px;
+}

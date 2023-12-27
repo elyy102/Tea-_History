@@ -1,0 +1,34 @@
+.contacts_container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.contacts_container_map iframe{
+    border-radius: 30px;
+}
+
+.contacts_container_rectangle{
+    padding: 76px 68px 76px 68px;
+    border-radius: 30px;
+border: 2px solid #6FBC29;
+}
+
+.contacts_container_rectangle_socialmedia{
+    display: flex;
+    gap: 23px;
+    margin-bottom: 51px;
+}
+
+.contacts_container_rectangle_socialmedia_p{
+    color: #1E1E1E;
+font-family: Montserrat Alternates;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.contacts_container_rectangle_socialmedia:last-child{
+    margin-bottom: 0;
+}

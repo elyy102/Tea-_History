@@ -1,0 +1,33 @@
+.delivery_rectangles{
+    display: flex;
+    border-radius: 30px;
+background: #6FBC29;
+padding: 60px 82px 60px 82px;
+gap: 46px;
+}
+
+.delivery_rectangle_1_title{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat Alternates;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 44px;
+}
+
+.delivery_rectangle_1_p{
+    color: #FFF;
+font-family: Montserrat Alternates;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 33px;
+list-style: disc;
+}
+
+li:last-child{
+    margin-bottom: 0;
+}

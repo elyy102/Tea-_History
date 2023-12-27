@@ -1,0 +1,94 @@
+.login_rectangle{
+    margin: 0 auto;
+    text-align: center;
+    width: 52vw;
+    max-width: 714px;
+    height: fit-content;
+    padding: 30px 68px;
+    border-radius: 30px;
+    background: #6FBC29;
+}
+
+.login{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.login_rectangle_h1{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat Alternates;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 30px;
+}
+.login_rectangle input{
+    width: 100%;
+    height: 76px;
+    border-radius: 20px;
+background: #FFF4CF;
+border: none;
+margin-bottom: 18px;
+}
+
+.login_rectangle input:last-child{
+    margin: 0;
+}
+
+::placeholder{
+    color: #747474;
+font-family: Montserrat Alternates;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 20px;
+}
+
+.login_btn{
+    margin-top: 12px;
+    margin-bottom: 30px;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 17px 70px;
+    border-radius: 20px;
+    background: #FFF4CF;
+    box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, 0.15), 0px -2px 4px 0px rgba(255, 255, 255, 0.15) inset, 0px 2px 4px 0px rgba(255, 255, 255, 0.15) inset, 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.login_p{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+p .login_p{
+    color: #2E2E2E;
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.login_p a{
+    color: #FFF4CF;
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.login_btn:hover{
+    background-color: #1E1E1E;
+    color: #FFF4CF;
+}

@@ -1,0 +1,51 @@
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #6FBC29;
+    width: 100%;
+    text-align: center;
+}
+
+
+.footer_logo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer_logo h1{
+    color: #FFF;
+    font-family: UniversityRoman;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.footer_logo img{
+    width: 34.076px;
+    height: 50px;
+}
+
+.footer_menu li{
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+.footer_menu li a{
+    color: #FFF;
+font-family: Montserrat Alternates;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+text-align: center;
+}
+
+.footer_icons{
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    margin-top: 20px;
+}

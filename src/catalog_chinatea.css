@@ -1,0 +1,137 @@
+.filtering {
+    display: flex;
+    color: #1E1E1E;
+font-family: Montserrat Alternates;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 30px;
+}
+
+.filtering hr{
+    width: 11vw;
+    height: 1px;
+    background-color: #1E1E1E;
+}
+
+.filtr{
+    text-align: center;
+}
+
+.filtering_filtr a{
+    text-decoration: none;
+    color: #1E1E1E;
+font-family: Montserrat Alternates;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.filtering_filtr a:hover{
+    color: #6FBC29;
+}
+
+.catalog_cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,442px);
+  width: 100%;
+  max-width: 1366px; /* Ширина grid-контейнера */
+  justify-content: center;
+  justify-items: center; /* Размещаем карточку по центру */
+  column-gap: 20px; /* Отступ между колонками */
+  row-gap: 30px; /* Отступ между рядами */
+  margin: 0 auto;
+}
+
+.card{
+    padding: 49px 33px;
+    height: fit-content;
+    border-radius: 30px;
+border: 2px solid #6FBC29;
+}
+
+.elipse{
+    width: 279px;
+    height: 279px;
+    border: 1px solid #6FBC29;
+    border-radius: 279px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.card_title{
+    margin-top: 39px;
+    margin-bottom: 35px;
+    color: #1E1E1E;
+font-family: Montserrat Alternates;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.composition span{
+    color: #1E1E1E;
+font-family: Montserrat Alternates;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.composition{
+    color: #1E1E1E;
+font-family: Montserrat Alternates;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 40px;
+}
+
+.card_footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price{
+    color: #1E1E1E;
+font-family: Montserrat Alternates;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.card_footer img{
+    width: 21.347px;
+height: 27px;
+}
+
+.card:hover{
+    background-color: #6FBC29;
+}
+
+.card:hover .elipse{
+    border: 1px solid #FFF4CF;
+}
+
+.card:hover h1{
+    color: #FFF4CF;
+}
+
+.card:hover p{
+    color: #FFF4CF;
+}
+
+.card:hover span{
+    color: #FFF4CF;
+}
+
+.card:hover .card_footer img{
+    background-image: url(src\assets\icons\bag.fill.white.svg);
+}

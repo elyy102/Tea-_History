@@ -1,0 +1,102 @@
+.profile{
+    display: flex;
+    gap: 20px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.myinformation{
+    width: 49vw;
+    height: fit-content;
+    padding: 35px 18px;
+    border-radius: 30px;
+border: 2px solid #6FBC29;
+}
+
+.myinformation_title{
+    color: #1E1E1E;
+    font-family: UniversityRoman;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.myinformation_containers{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 37px;
+}
+
+.myinformation_containers img{
+    width: 99.951px;
+    height: 100px;
+}
+
+.myinformation_containers_data_nickname{
+    color: #1E1E1E;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.myinformation_containers_data_number{
+    margin-bottom: 8px;
+}
+
+.myinformation_containers_data_number, .myinformation_containers_data_email{
+    color: #2E2E2E;
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.myinformation_btn{
+    padding: 17px 68px;
+    color: #FFF4CF;
+    text-align: center;
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 15px;
+background: #FF3131;
+box-shadow: 0px 4px 4px 0px rgba(213, 213, 213, 0.25), 0px 4px 4px 0px rgba(225, 225, 225, 0.25) inset, 0px 4px 4px 0px rgba(255, 255, 255, 0.25) inset, 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
+}
+
+.myorders{
+    width: 49vw;
+    height: fit-content;
+    padding: 35px 18px;
+    border-radius: 30px;
+background: #6FBC29;
+}
+
+.myorders_title{
+    color: #FFF4CF;
+    font-family: UniversityRoman;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.myorders_orders{
+    color: #FFF4CF;
+font-family: Montserrat Alternates;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}

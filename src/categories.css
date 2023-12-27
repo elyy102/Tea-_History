@@ -1,0 +1,53 @@
+.categories_1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 28px;
+    margin-bottom: 28px;
+}
+
+.category_1{
+    height: 310px;
+    border-radius: 20px;
+    background: rgba(57, 57, 57, 0.40);
+    position: relative;
+}
+
+.category_2{
+    position: relative;
+}
+
+.categories_1:last-child{
+    margin: 0;
+}
+
+.category_2{
+    height: 310px;
+    border-radius: 20px;
+    background: rgba(57, 57, 57, 0.50);
+}
+
+.text {
+    position:absolute;
+    bottom:0;
+    opacity:0;
+    left:50%;
+    transform:translate(-50%, 0);
+    transition: 0.5s;
+    width:100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    top: 47%;
+}
+
+.category_1:hover .text{
+    opacity:1;
+}
+
+.category_2:hover .text{
+    opacity:1;
+}
